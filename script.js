@@ -21,25 +21,25 @@ morty.addEventListener("click", () => {
   console.log(random)
   switch (random) {
     case 1:
-      audio.setAttribute("src", "./OhChrist.mp3");
+      audio.setAttribute("src", "./audios/OhChrist.mp3");
       break;
     case 2:
-      audio.setAttribute("src", "./Aw.mp3");
+      audio.setAttribute("src", "./audios/Aw.mp3");
       break;
     case 3:
-      audio.setAttribute("src", "./Hohohoo.mp3");
+      audio.setAttribute("src", "./audios/Hohohoo.mp3");
       break;
       case 4:
-        audio.setAttribute("src", "./Auch.mp3");
+        audio.setAttribute("src", "./audios/Auch.mp3");
         break;
         case 5:
-            audio.setAttribute("src", "./Ah.mp3");
+            audio.setAttribute("src", "./audios/Ah.mp3");
       break;
       case 6:
-            audio.setAttribute("src", "./Ah.mp3");
+            audio.setAttribute("src", "./audios/Ah.mp3");
       break
     default:
-      audio.setAttribute("src", "./Oh.mp3");
+      audio.setAttribute("src", "./audios/Oh.mp3");
       break;
   }
   container.appendChild(audio);
